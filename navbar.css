@@ -1,0 +1,42 @@
+.horizontal-nav {
+    position: relative;
+    background-color: lightblue; /* Light blue background color */
+    color: #fff;
+    z-index: 1000;
+    text-align: center;
+}
+
+.horizontal-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Vertically center the items */
+}
+
+.horizontal-nav li {
+    margin: 0;
+}
+
+.horizontal-nav a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.horizontal-nav a:hover {
+    /* background-color: #555; */
+}
+
+/* Highlight the current section link */
+.horizontal-nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

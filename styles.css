@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    /*font-family: 'Great Vibes', cursive;
+    /* Additional styling for headings */
+}
+
+header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    max-width: 500;
+}
+
+.upper-text {
+    position: absolute;
+    top: 0%; /* Adjust the top value to position the text as desired */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff; /* Text color for the upper text */
+}
+
+.upper-text h2 {
+    font-family: 'Parisienne', cursive; /* Apply the "Parisienne" font */
+    font-size: 3rem;
+    margin: 0;
+}
+
+.countdown-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+}
+
+.countdown-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+
+#countdown {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2; /* Ensure it's above the background */
+}
+
+
+#invitation {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.invitation-content {
+    font-family: 'Parisienne', cursive;
+    font-size: 36px;
+    color: #333; /* Text color for the invitation content */
+}
+
+.invitation-content h1 {
+    font-size: 48px; /* Larger font size for the heading */
+    margin-bottom: 10px; /* Add some spacing below the heading */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Add more CSS styles for the content sections as needed */

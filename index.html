@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiona und Dominik heiraten</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="morestyles.css">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Parisienne">
+
+</head>
+
+<body>
+    <header>
+        <img src="wedding-landscape.jpg" alt="Wedding Landscape Photo">
+        <div class="countdown-container">
+            <div class="countdown-circle">
+                <div id="countdown"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav class="horizontal-nav" id="navbar">
+            <ul>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#arrival">Arrival</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+            </ul>
+        </nav>
+        <section id="invitation">
+            <div class="invitation-content">
+                <h1>Du bist eingeladen!</h1>
+                <p>The couple joyfully invites you to celebrate their special day.</p>
+            </div>
+        </section>
+
+        <section class="section header-section"">
+            <div class=" container">
+            <div class="headline-font-wrapper">
+                <h2>Locations</h2>
+            </div>
+            <p class="subheading">
+                Hier findet ihr Details zu den einzelnen Locations sowie Anreise-Informationen.
+                </div>
+        </section>
+        <section id="location" class="section locations">
+            <div class="container">
+                <ul class="location-list">
+                    <li class="location">
+                        <a class="location-map" target="_blank"
+                            href="https://maps.google.com/?q=Am%20Gr%C3%A4fengericht%202%2C%2021635%20Jork">
+
+
+                            <div class="location-map-image hexagon">
+                                <img src="map.png" alt="" loading="lazy" />
+                            </div>
+                        </a>
+                        <div class="location-details">
+                            <h3 class="headline">
+                                Standesamtliche Trauung
+                            </h3>
+                            <p class="subline">
+                                Standesamt Jork, 10. Mai 2021 um 09:00 Uhr </p>
+                            <p class="description">
+                                Die standesamtliche Trauung findet nur im engen Familienkreis statt.
+                            </p>
+                            <p class="url">
+                                <strong>Adresse:</strong>
+                                <a href="https://maps.google.com/?q=Am%20Gr%C3%A4fengericht%202%2C%2021635%20Jork"
+                                    target="_blank">Am Gräfengericht 2, 21635 Jork</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="location">
+                        <a class="location-map" target="_blank"
+                            href="https://maps.google.com/?q=Bei%20der%20Johanniskirche%2016%2C%2022767%20Hamburg">
+
+
+                            <div class="location-map-image hexagon">
+                                <img src="map.png" alt="" loading="lazy" />
+                            </div>
+                        </a>
+                        <div class="location-details">
+                            <h3 class="headline">
+                                Kirchliche Trauung
+                            </h3>
+                            <p class="subline">
+                                St. Johanniskirche, 12. Juli 2020 um 15:00 Uhr </p>
+                            <p class="description">
+                                Es gibt nur begrenzt Parkmöglichkeiten, daher kommt bitte rechtzeitig oder nutzt die
+                                öffentlichen Verkehrsmittel.
+                            </p>
+                            <p class="url">
+                                <strong>Adresse:</strong>
+                                <a href="https://maps.google.com/?q=Bei%20der%20Johanniskirche%2016%2C%2022767%20Hamburg"
+                                    target="_blank">Bei der Johanniskirche 16, 22767 Hamburg</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="location">
+                        <a class="location-map" target="_blank"
+                            href="https://maps.google.com/?q=Dorfstra%C3%9Fe%2014%2C%2022955%20Hoisdorf">
+
+
+                            <div class="location-map-image hexagon">
+                                <img src="map.png" alt="" loading="lazy" />
+                            </div>
+                        </a>
+                        <div class="location-details">
+                            <h3 class="headline">
+                                Hochzeitsfeier
+                            </h3>
+                            <p class="subline">
+                                Landhaus Hoisdorf, 12. Juli 2020 um 19:00 Uhr </p>
+                            <p class="description">
+                                Sommerlich festliche Kleidung. Wir lassen es richtig krachen!<br />
+                                <br />
+                                Solltet ihr Sonderwünsche bzgl. des Essens haben (Vegan, Laktoseintolleranz, etc..)
+                                lasst es uns wissen!
+                            </p>
+                            <p class="url">
+                                <strong>Adresse:</strong>
+                                <a href="https://maps.google.com/?q=Dorfstra%C3%9Fe%2014%2C%2022955%20Hoisdorf"
+                                    target="_blank">Dorfstraße 14, 22955 Hoisdorf</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--
+        <section id="location">
+            <h2>Location</h2>
+            <p>We are excited to celebrate our special day with you at a beautiful venue:</p>
+            <address>
+                <strong>Wedding Venue:</strong><br>
+                Garden View Manor<br>
+                123 Wedding Lane<br>
+                Blissville, CA 98765
+            </address>
+            <p>The venue is surrounded by lush gardens and offers a picturesque setting for our ceremony and reception.
+            </p>
+            <p>Please check the map below for directions:</p>
+            <div id="map">
+                <!-- Include a map or a link to a map service like Google Maps here 
+            </div>
+            <img src="venue-exterior.jpg" alt="Venue Exterior">
+        </section>
+        <section id="arrival">
+            <h2>Arrival</h2>
+            <p>We recommend arriving at the venue a little earlier to ensure you have ample time to find parking and get
+                settled before the ceremony begins.</p>
+            <p>Parking is available on-site, and our ushers will be there to guide you to the parking area.</p>
+            <p>The ceremony will start promptly, so please plan accordingly to avoid missing any part of this special
+                day.</p>
+            <img src="parking-usher.jpg" alt="Parking and Usher">
+        </section>
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <p>Here's a brief overview of the day's events:</p>
+            <ul>
+                <li><strong>Ceremony:</strong> 2:00 PM - 2:45 PM</li>
+                <li><strong>Cocktail Hour:</strong> 3:00 PM - 4:00 PM</li>
+                <li><strong>Reception:</strong> 4:30 PM - 10:00 PM</li>
+            </ul>
+            <p>We look forward to celebrating with you throughout the day. The ceremony will be followed by a cocktail
+                hour, and then the evening will continue with a joyous reception featuring dinner, dancing, and more.
+            </p>
+            <img src="ceremony-reception.jpg" alt="Ceremony and Reception Setup">
+        </section>
+    -->
+
+        <section class="section header-section" >
+            <div class="container">
+                <div class="headline-font-wrapper">
+                    <h2>Tagesablauf</h2>
+                </div>
+                <p class="subheading">
+                    Hier findet ihr Informationen zu den einzelnen Programmpunkten unserer Hochzeit.
+                </p>
+            </div>
+        </section>
+
+
+        <section class="section schedule-section" id="agenda">
+            <div class="container">
+                <ul class="activities">
+                    <li class="activity">
+                        <div class="icon-wrapper">
+                            <div class="icon">
+                                <img src="icon.png">
+                            </div>
+                        </div>
+                        <div class="activity-content">
+                            <h3 class="activity-headline">
+                                15:00 - Trauung in der Kirche
+                            </h3>
+                            <p class="activity-description">
+                                Wir würden euch bitten, pünktlich an der Kirche zu erscheinen, da direkt nach uns eine
+                                weitere Trauung stattfindet.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="activity">
+                        <div class="icon-wrapper">
+                            <div class="icon">
+                                <i class="fa fa-camera"></i>
+                            </div>
+                        </div>
+                        <div class="activity-content">
+                            <h3 class="activity-headline">
+                                16:00 - Gemeinsames Fotoshooting vor der Kirche
+                            </h3>
+                            <p class="activity-description">
+                                Wir würden uns freuen mit allen Gästen ein gemeinsames Foto vor der Kirche zu
+                                machen.<br />
+                                <br />
+                                Danach haben alle ein wenig zeit und können noch einmal die Füße hochlegen bis es dann
+                                ab 19 Uhr am Landhaus weitergeht.<br />
+                                <br />
+                                Wir werden unterdessen Fotos mit unserem Fotografen machen
+                            </p>
+                        </div>
+                    </li>
+                    <li class="activity">
+                        <div class="icon-wrapper">
+                            <div class="icon">
+                                <i class="wb wb-champagne-glasses"></i>
+                            </div>
+                        </div>
+                        <div class="activity-content">
+                            <h3 class="activity-headline">
+                                17:00 - Sektempfang am Landhaus
+                            </h3>
+                            <p class="activity-description">
+                                Kein Angst - es wird auch eine Kleinigkeit zu essen geben :)
+                            </p>
+                        </div>
+                    </li>
+                    <li class="activity">
+                        <div class="icon-wrapper">
+                            <div class="icon">
+                                <i class="wb wb-wedding-ring"></i>
+                            </div>
+                        </div>
+                        <div class="activity-content">
+                            <h3 class="activity-headline">
+                                19:00 - Die große Feier!
+                            </h3>
+                            <p class="activity-description">
+                                Es wird gegessen, gefeiert und vielleicht auch die ein oder andere Rede gehalten. <br />
+                                Wir freuen uns darauf, mit euch unseren besonderen Tag zu feiern.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="countdown.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            console.log("test")
+            const navbar = document.getElementById("navbar");
+            const headerHeight = document.querySelector("header").clientHeight;
+
+            window.addEventListener("scroll", function () {
+                if (window.scrollY >= headerHeight) {
+                    navbar.classList.add("fixed-nav");
+                } else {
+                    navbar.classList.remove("fixed-nav");
+                }
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const sections = document.querySelectorAll("section");
+            const navLinks = document.querySelectorAll(".horizontal-nav a");
+
+            window.addEventListener("scroll", function () {
+                let current = "";
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+
+                    if (window.scrollY >= sectionTop - sectionHeight / 2) {
+                        current = section.getAttribute("id");
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove("active");
+                    if (link.getAttribute("href").slice(1) === current) {
+                        link.classList.add("active");
+                    }
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
