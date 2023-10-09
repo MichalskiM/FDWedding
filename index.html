@@ -39,7 +39,7 @@
         </section>
 
         <section class="section header-section"">
-            <div class=" container">
+            <div class="container">
             <div class="headline-font-wrapper">
                 <h2>Locations</h2>
             </div>
@@ -174,7 +174,7 @@
         </section>
     -->
 
-        <section class="section header-section" >
+        <section class="section header-section">
             <div class="container">
                 <div class="headline-font-wrapper">
                     <h2>Tagesablauf</h2>
@@ -264,48 +264,8 @@
 
     </main>
     <script src="countdown.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            console.log("test")
-            const navbar = document.getElementById("navbar");
-            const headerHeight = document.querySelector("header").clientHeight;
-
-            window.addEventListener("scroll", function () {
-                if (window.scrollY >= headerHeight) {
-                    navbar.classList.add("fixed-nav");
-                } else {
-                    navbar.classList.remove("fixed-nav");
-                }
-            });
-        });
-    </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const sections = document.querySelectorAll("section");
-            const navLinks = document.querySelectorAll(".horizontal-nav a");
-
-            window.addEventListener("scroll", function () {
-                let current = "";
-
-                sections.forEach(section => {
-                    const sectionTop = section.offsetTop;
-                    const sectionHeight = section.clientHeight;
-
-                    if (window.scrollY >= sectionTop - sectionHeight / 2) {
-                        current = section.getAttribute("id");
-                    }
-                });
-
-                navLinks.forEach(link => {
-                    link.classList.remove("active");
-                    if (link.getAttribute("href").slice(1) === current) {
-                        link.classList.add("active");
-                    }
-                });
-            });
-        });
-
-    </script>
+    <script src="navbaraction.js"></script>
+    <script src="fixnavbar.js"> </script>
 </body>
 
 </html>

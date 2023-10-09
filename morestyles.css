@@ -7,9 +7,18 @@
 
 .header-section .subheading {
     font-size: 1.1rem;
-    color: rgba(var(--header-section-foreground-color-rgb), 0.75);
+    color: black;
     font-weight: 300;
     width: 75%;
+    margin: 15px auto 0px;
+}
+
+.header-section h2::after {
+    background-color: gray;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 120px;
     margin: 15px auto 0px;
 }
 
@@ -92,6 +101,7 @@ ul {
 }
 
 .schedule-section .icon-wrapper .icon {
+    margin-top: 15px;
     -webkit-box-align: center;
     align-items: center;
     color: lightcoral;
